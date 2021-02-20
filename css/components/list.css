@@ -10,6 +10,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem 2rem;
   background-color: var(--secondary);
   border-radius: 2px;
@@ -59,13 +60,14 @@
 
 .list__bttn {
   font-weight: bold;
-  padding: 0.2rem 1rem;
-  height: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 2rem;
   background-color: transparent;
   transition: 0.2s;
   cursor: pointer;
   border-radius: 0.2rem;
-  margin-right: 0.3rem;
+  margin-right: 1rem;
 }
 
 .list__bttn--drop {
