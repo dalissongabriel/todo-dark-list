@@ -18,7 +18,7 @@
 }
 
 .form__input {
-  padding: 0.5rem 0.9rem;
+  padding: 1rem 1rem;
   border: none;
   border-radius: 0.2rem;
   background-color: var(--secondary);
@@ -32,7 +32,6 @@
   color: var(--textContentColor)
 }
 .form__input--text {
-  padding: 1rem 1rem;
   font-size: 1.1rem;
   color: var(--textContentColor);
 }
