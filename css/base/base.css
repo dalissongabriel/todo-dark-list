@@ -1,0 +1,22 @@
+:root {
+  /* Colors */
+  --background: #2D2D2A;
+  --primary: #20FC8F;
+  --secondary: #353831;
+  --textContentColor: white;
+  --danger: #f08080;
+  --backgroundSuccess: #3F5E5A;
+  --titleColor: #6f8885;
+  /* Fonts */
+  --titleFont: 'Libre Baskerville', serif;
+  --contentFont: 'Fira Code', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  font-family: var(--contentFont)
+}

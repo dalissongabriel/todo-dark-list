@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List | Code Pratication</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/base/reset.css">
+  <link rel="stylesheet" href="./css/base/base.css">
+  <link rel="stylesheet" href="./css/fonts/fonts.css">
+  <link rel="stylesheet" href="./css/components/form.css">
+  <link rel="stylesheet" href="./css/components/list.css">
+  <link rel="stylesheet" href="./css//components/title.css">
+</head>
+<body>
+  <main>
+    <!-- Begging of the Todo creation form -->
+    <section>
+      <h1 class="title title--primary">Todo List</h1>
+      <form class="form">
+        <label for="description" class="form__label form__label--left">Task: </label>
+        <input id="description" class="form__input form__input--text" autocomplete="off" required autofocus
+          placeholder="Enter the description here ...." type="text">
+        <input type="submit" class="form__input form__input--submit" value="Add Task">
+      </form>  
+    </section>
+    <!-- End of the Todo creation form  -->
+    
+    <!-- Begging of the Todo list -->
+    <section>
+      <h2 class="title  title--secondary">Task List</h2>
+      <ul class="list">
+      </ul>  
+    </section>
+    <!-- End of the Todo list -->
+  </main>
+  <!-- Import JS scripts -->
+  <script src="./js/Todo.js"></script>
+  <script src="./js/HtmlTodo.js"></script>
+  <script src="./js/App.js"></script>
+</body>
+</html>

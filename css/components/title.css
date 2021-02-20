@@ -1,0 +1,8 @@
+
+.title {
+  color: var(--titleColor);
+  font-size: 2rem;
+  text-align: center;
+  margin: 0.8rem 0rem;
+  font-family: var(--titleFont)
+}

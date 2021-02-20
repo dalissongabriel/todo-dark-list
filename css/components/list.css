@@ -1,0 +1,88 @@
+
+
+.list {
+  max-width: 700px;
+  padding: 0.5rem;
+  margin: 2% auto;
+}
+
+.list__item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  background-color: var(--secondary);
+  border-radius: 2px;
+  border: none;
+  margin: 2px 0px;
+  height: 2.5rem;
+}
+
+
+.list__item--open::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 94%;
+  display: block;
+  background-color: var(--danger);
+  left: 0.5%;
+  top: 3%;
+}
+
+.list__item--complete {
+  background-color: var(--backgroundSuccess);
+}
+.list__item--complete::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 94%;
+  display: block;
+  background-color: var(--primary);
+  left: 0.5%;
+  top: 3%;
+}
+
+.list__text {
+  color: var(--textContentColor);
+}
+
+.list__text--complete {
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.list__actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list__bttn {
+  font-weight: bold;
+  padding: 0.2rem 1rem;
+  background-color: transparent;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  margin-right: 0.3rem;
+}
+
+.list__bttn--drop {
+  border: 1px solid var(--danger);
+  color: var(--danger);
+}
+
+.list__bttn--complete {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.list__bttn--drop:hover {
+  background-color: var(--danger);
+  color: var(--secondary);
+}
+.list__bttn--complete:hover {
+  background-color: var(--primary);
+  color:  var(--secondary);
+}
